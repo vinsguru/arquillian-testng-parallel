@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="tag" parallel="none" allow-return-values="true" >
+  <test name="Test1">
+    <classes>
+      <class name="org.jboss.arquillian.pages.test.GoogleTest3"/>
+    </classes>
+  </test>
+  <test name="Test2">
+    <classes>
+      <class name="org.jboss.arquillian.pages.test.GoogleTest4"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->
